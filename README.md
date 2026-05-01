@@ -235,5 +235,5 @@ La separación se realiza a **nivel de usuario** (`GroupShuffleSplit`) para gara
 ## Autor
 
 **Daniel Portela**  
-Ciberseguridad — Proyecto 2  
+Programación Segura — Proyecto 2  
 Abril 2026
