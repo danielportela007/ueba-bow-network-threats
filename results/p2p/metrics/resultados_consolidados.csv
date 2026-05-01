@@ -1,0 +1,18 @@
+Representacion,Modelo,Tipo,F1,F1_macro,Precision,Recall (TPR),Accuracy,ROC-AUC,PR-AUC,TPR,FPR
+BoW (frecuencias),XGBoost,Supervisado,0.8939,0.8899,0.8637,0.9262,0.8900,0.9438,0.9253,0.9262,0.1462
+BoW (frecuencias),Random Forest,Supervisado,0.8847,0.8804,0.8549,0.9168,0.8806,0.9376,0.9131,0.9168,0.1556
+BoW (frecuencias),Gradient Boosting,Supervisado,0.8987,0.8946,0.8664,0.9334,0.8947,0.9474,0.9297,0.9334,0.1439
+BoW (frecuencias),Logistic Regression,Supervisado,0.8578,0.8515,0.8242,0.8943,0.8518,0.9068,0.8840,0.8943,0.1907
+BoW (frecuencias),SVM (RBF),Supervisado,0.9354,0.9329,0.9029,0.9703,0.9330,0.9550,0.9339,0.9703,0.1044
+BoW + TF-IDF,XGBoost,Supervisado,0.8900,0.8882,0.8759,0.9046,0.8882,0.9485,0.9314,0.9046,0.1282
+BoW + TF-IDF,Random Forest,Supervisado,0.8781,0.8805,0.8964,0.8605,0.8806,0.9482,0.9294,0.8605,0.0994
+BoW + TF-IDF,Gradient Boosting,Supervisado,0.8943,0.8927,0.8816,0.9073,0.8927,0.9509,0.9343,0.9073,0.1219
+BoW + TF-IDF,Logistic Regression,Supervisado,0.8569,0.8506,0.8237,0.8929,0.8509,0.9082,0.8858,0.8929,0.1912
+BoW + TF-IDF,SVM (RBF),Supervisado,0.9344,0.9320,0.9031,0.9681,0.9321,0.9558,0.9372,0.9681,0.1039
+Features originales,XGBoost,Supervisado,0.9355,0.9334,0.9077,0.9649,0.9334,0.9725,0.9674,0.9649,0.0981
+Features originales,Random Forest,Supervisado,0.9361,0.9345,0.9142,0.9591,0.9345,0.9730,0.9682,0.9591,0.0900
+Features originales,Gradient Boosting,Supervisado,0.9347,0.9324,0.9052,0.9663,0.9325,0.9757,0.9720,0.9663,0.1012
+Features originales,Logistic Regression,Supervisado,0.8105,0.7807,0.7238,0.9208,0.7848,0.8341,0.7900,0.9208,0.3513
+Features originales,SVM (RBF),Supervisado,0.8149,0.7913,0.7398,0.9069,0.7940,0.8545,0.8095,0.9069,0.3189
+BoW + TF-IDF,Isolation Forest,No supervisado,0.0062,,0.2692,0.0031,,0.4081,0.4388,0.0031,0.0085
+BoW + TF-IDF,One-Class SVM,No supervisado,0.0757,,0.5844,0.0405,,0.5406,0.5793,0.0405,0.0288
